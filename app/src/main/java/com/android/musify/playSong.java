@@ -56,6 +56,7 @@ public class playSong extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Theme_Musify);
         setContentView(R.layout.activity_play_song);
 
         textView = findViewById(R.id.textView);

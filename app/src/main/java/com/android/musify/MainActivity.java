@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView;
 
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Theme_Musify);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.listView);
         Dexter.withContext(this)
